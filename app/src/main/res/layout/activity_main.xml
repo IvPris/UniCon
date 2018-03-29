@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp">
+
+    <ImageButton
+        android:background="#FFC300"
+        android:id="@+id/bWeight"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:layout_margin="5dp"
+        android:src="@drawable/weight" />
+    <ImageButton
+        android:background="#FF5733"
+        android:id="@+id/bDistance"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/distance"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/bWeight"
+        android:scaleType="centerInside"/>
+    <ImageButton
+        android:background="#C70039"
+        android:id="@+id/bVolume"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/volume"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/bDistance"
+        android:scaleType="centerInside"/>
+    <ImageButton
+        android:background="#900C3F"
+        android:id="@+id/bSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/speed"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/bVolume"
+        android:scaleType="centerInside"/>
+</RelativeLayout>
+</ScrollView>
