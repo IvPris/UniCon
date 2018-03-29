@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -11,10 +12,10 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-    @BindView(R.id.bWeight) Button bWeight;
-    @BindView(R.id.bDistance) Button bDistance;
-    @BindView(R.id.bSpeed) Button bSpeed;
-    @BindView(R.id.bVolume) Button bVolume;
+    @BindView(R.id.bWeight) ImageButton bWeight;
+    @BindView(R.id.bDistance) ImageButton bDistance;
+    @BindView(R.id.bSpeed) ImageButton bSpeed;
+    @BindView(R.id.bVolume) ImageButton bVolume;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
