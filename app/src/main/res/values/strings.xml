@@ -6,6 +6,7 @@
     <string name="weight_conversion">Weight conversion</string>
     <string name="default_value">0.0</string>
     <string name="convert">convert</string>
+    <string name="convert_again">convert again</string>
     <string-array name="distance">
         <item>millimeter</item>
         <item>centimeter</item>
