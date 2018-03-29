@@ -4,4 +4,35 @@
     <string name="speed_conversion">Speed conversion</string>
     <string name="distance_conversion">Distance conversion</string>
     <string name="weight_conversion">Weight conversion</string>
+    <string name="default_value">0.0</string>
+    <string name="convert">convert</string>
+    <string-array name="distance">
+        <item>millimeter</item>
+        <item>centimeter</item>
+        <item>meter</item>
+        <item>kilometer</item>
+        <item>inch</item>
+        <item>foot</item>
+        <item>mile</item>
+    </string-array>
+    <string-array name="weight">
+        <item>gram</item>
+        <item>kilogram</item>
+        <item>ounce</item>
+        <item>pound</item>
+    </string-array>
+    <string-array name="speed">
+        <item>meter per second</item>
+        <item>kilometer per hour</item>
+        <item>mile per hour</item>
+    </string-array>
+    <string-array name="volume">
+        <item>milliliter</item>
+        <item>deciliters</item>
+        <item>liters</item>
+        <item>teaspoon</item>
+        <item>tablespoon</item>
+        <item>cup</item>
+    </string-array>
+
 </resources>

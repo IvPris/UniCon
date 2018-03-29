@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="weightColor">#FFC300</color>
+    <color name="distanceColor">#FF5733</color>
+    <color name="volumeColor">#C70039</color>
+    <color name="speedColor">#900C3F</color>
+    <color name="conversionColor">#DAF7A6</color>
+    <color name="convertColor">#581845</color>
+    <color name="convertTextColor">#CFCCCE</color>
 </resources>

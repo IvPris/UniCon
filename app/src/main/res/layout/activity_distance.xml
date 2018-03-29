@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".DistanceActivity">
-
-</android.support.constraint.ConstraintLayout>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/conversionColor">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDistance" 
+        android:text="@string/distance_conversion"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+    <Spinner
+        android:id="@+id/spDistanceFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDistance"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+    </Spinner>
+    <EditText
+        android:id="@+id/etDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/spDistanceFrom"
+        android:inputType="numberDecimal"
+        android:hint="@string/default_value"/>
+    <Spinner
+        android:id="@+id/spDistanceTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDistance"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+    </Spinner>
+    <Button
+        android:id="@+id/bConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"
+        android:layout_below="@id/spDistanceTo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:background="@color/convertColor"
+        android:textColor="@color/convertTextColor"
+        />
+</RelativeLayout>

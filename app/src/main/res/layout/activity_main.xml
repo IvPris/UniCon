@@ -10,7 +10,7 @@
     android:layout_margin="10dp">
 
     <ImageButton
-        android:background="#FFC300"
+        android:background="@color/weightColor"
         android:id="@+id/bWeight"
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -18,7 +18,7 @@
         android:layout_margin="5dp"
         android:src="@drawable/weight" />
     <ImageButton
-        android:background="#FF5733"
+        android:background="@color/distanceColor"
         android:id="@+id/bDistance"
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -27,7 +27,7 @@
         android:layout_below="@+id/bWeight"
         android:scaleType="centerInside"/>
     <ImageButton
-        android:background="#C70039"
+        android:background="@color/volumeColor"
         android:id="@+id/bVolume"
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -36,7 +36,7 @@
         android:layout_below="@+id/bDistance"
         android:scaleType="centerInside"/>
     <ImageButton
-        android:background="#900C3F"
+        android:background="@color/speedColor"
         android:id="@+id/bSpeed"
         android:layout_width="match_parent"
         android:layout_height="100dp"
