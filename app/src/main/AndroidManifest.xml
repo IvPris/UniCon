@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WeightActivity"
+            android:label="@string/weight_conversion"/>
+        <activity android:name=".DistanceActivity"
+            android:label="@string/distance_conversion"/>
+        <activity android:name=".SpeedActivity"
+            android:label="@string/speed_conversion"/>
+        <activity android:name=".VolumeActivity"
+            android:label="@string/volume_conversion"/>
     </application>
 
 </manifest>

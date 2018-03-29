@@ -26,21 +26,25 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.bWeight)
     public void showWeightConverter(){
-        
+        Intent showWeightConverter = new Intent(this, WeightActivity.class);
+        startActivity(showWeightConverter);
     }
 
     @OnClick(R.id.bVolume)
     public void showVolumeConverter(){
-
+        Intent showVolumeConverter = new Intent(this, VolumeActivity.class);
+        startActivity(showVolumeConverter);
     }
 
     @OnClick(R.id.bSpeed)
     public void showSpeedConverter() {
-
+        Intent showSpeedConverter = new Intent(this, SpeedActivity.class);
+        startActivity(showSpeedConverter);
     }
 
     @OnClick(R.id.bDistance)
     public void showDistanceConverter(){
-
+        Intent showDistanceConverter = new Intent(this, DistanceActivity.class);
+        startActivity(showDistanceConverter);
     }
 }

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">UniCon</string>
+    <string name="volume_conversion">Volume conversion</string>
+    <string name="speed_conversion">Speed conversion</string>
+    <string name="distance_conversion">Distance conversion</string>
+    <string name="weight_conversion">Weight conversion</string>
 </resources>
