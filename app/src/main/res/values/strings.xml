@@ -8,32 +8,31 @@
     <string name="convert">convert</string>
     <string name="convert_again">convert again</string>
     <string-array name="distance">
-        <item>millimeter</item>
-        <item>centimeter</item>
-        <item>meter</item>
-        <item>kilometer</item>
-        <item>inch</item>
-        <item>foot</item>
-        <item>mile</item>
+        <item>millimeters</item>
+        <item>meters</item>
+        <item>kilometers</item>
+        <item>inches</item>
+        <item>feet</item>
+        <item>miles</item>
     </string-array>
     <string-array name="weight">
-        <item>gram</item>
-        <item>kilogram</item>
-        <item>ounce</item>
-        <item>pound</item>
+        <item>grams</item>
+        <item>kilograms</item>
+        <item>ounces</item>
+        <item>pounds</item>
     </string-array>
     <string-array name="speed">
-        <item>meter per second</item>
-        <item>kilometer per hour</item>
-        <item>mile per hour</item>
+        <item>meters per second</item>
+        <item>kilometers per hour</item>
+        <item>miles per hour</item>
     </string-array>
     <string-array name="volume">
-        <item>milliliter</item>
+        <item>milliliters</item>
         <item>deciliters</item>
         <item>liters</item>
-        <item>teaspoon</item>
-        <item>tablespoon</item>
-        <item>cup</item>
+        <item>teaspoons</item>
+        <item>tablespoons</item>
+        <item>cups</item>
     </string-array>
 
 </resources>

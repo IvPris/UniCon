@@ -19,7 +19,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tvDistance"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        android:entries="@array/distance">
     </Spinner>
     <EditText
         android:id="@+id/etDistance"
@@ -36,7 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/etDistance"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        android:entries="@array/distance">
     </Spinner>
     <Button
         android:id="@+id/bConvertDistance"
