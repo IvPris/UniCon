@@ -15,11 +15,12 @@
         android:layout_marginTop="20dp"/>
     <Spinner
         android:id="@+id/spDistanceFrom"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvDistance"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
         android:entries="@array/distance">
     </Spinner>
     <EditText
@@ -33,11 +34,12 @@
         android:hint="@string/default_value"/>
     <Spinner
         android:id="@+id/spDistanceTo"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/etDistance"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
         android:entries="@array/distance">
     </Spinner>
     <Button

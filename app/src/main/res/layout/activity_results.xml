@@ -4,34 +4,42 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:id="@+id/fromValue"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
+        android:layout_centerHorizontal="true"
         android:textSize="25sp"
         android:textColor="@color/black"/>
     <TextView
         android:id="@+id/fromUnit"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/fromValue"
         android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+
+        android:textStyle="bold"
         android:textColor="@color/black"/>
     <TextView
         android:id="@+id/toValue"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/fromUnit"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
         android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+
         android:textColor="@color/black"/>
     <TextView
         android:id="@+id/toUnit"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/toValue"
         android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
         android:textColor="@color/black"/>
     <Button
         android:id="@+id/bConvertAgain"

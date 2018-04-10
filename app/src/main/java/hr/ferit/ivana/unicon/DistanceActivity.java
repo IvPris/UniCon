@@ -33,7 +33,13 @@ public class DistanceActivity extends AppCompatActivity {
     @OnClick(R.id.bConvertDistance)
     public void convertDistance(){
         double result = 0;
-        double distance = Float.valueOf(etDistance.getText().toString());
+        double distance;
+        if (etDistance.getText().toString().matches("")){
+            distance = 0;
+        }
+        else {
+            distance = Float.valueOf(etDistance.getText().toString());
+        }
         String distanceFrom = spDistanceFrom.getSelectedItem().toString();
         String distanceTo = spDistanceTo.getSelectedItem().toString();
         int distanceToPosition = spDistanceTo.getSelectedItemPosition();

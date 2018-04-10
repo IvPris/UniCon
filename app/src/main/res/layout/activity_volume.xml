@@ -15,11 +15,13 @@
         android:layout_marginTop="20dp"/>
     <Spinner
         android:id="@+id/spVolumeFrom"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvVolume"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/volume">
     </Spinner>
     <EditText
         android:id="@+id/etVolume"
@@ -32,10 +34,12 @@
         android:hint="@string/default_value"/>
     <Spinner
         android:id="@+id/spVolumeTo"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/etVolume"
         android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/volume"
         android:layout_marginBottom="15dp">
     </Spinner>
     <Button

@@ -15,11 +15,13 @@
         android:layout_marginTop="20dp"/>
     <Spinner
         android:id="@+id/spSpeedFrom"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvSpeed"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/speed">
     </Spinner>
     <EditText
         android:id="@+id/etSpeed"
@@ -32,11 +34,13 @@
         android:hint="@string/default_value"/>
     <Spinner
         android:id="@+id/spSpeedTo"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/etSpeed"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/speed">
     </Spinner>
     <Button
         android:id="@+id/bConvertSpeed"

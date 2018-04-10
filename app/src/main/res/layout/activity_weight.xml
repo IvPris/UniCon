@@ -12,14 +12,16 @@
         android:textAlignment="center"
         android:textSize="25sp"
         android:textColor="@color/black"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp" />
     <Spinner
         android:id="@+id/spWeightFrom"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvWeight"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        android:entries="@array/weight"
+        android:layout_centerHorizontal="true">
     </Spinner>
     <EditText
         android:id="@+id/etWeight"
@@ -32,11 +34,13 @@
         android:hint="@string/default_value"/>
     <Spinner
         android:id="@+id/spWeightTo"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/etWeight"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        android:entries="@array/weight"
+        android:layout_centerHorizontal="true">
     </Spinner>
     <Button
         android:id="@+id/bConvertWeight"
